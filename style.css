@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+.circle {
+  display: block;
+  color: black;
+  margin: 0 auto;
+  width: 60vh;
+  height: 60vh;
+  background: whitesmoke;
+  border-radius: 50%;
+  -moz-transition: all .51s;
+  -o-transition: all .51s;
+  -webkit-transition: all .51s;
+  transition: .51s;
+}
+
+.circle .eyes {
+  width: 100%;
+}
+
+.circle .eyes * {
+  margin: 5vh;
+  margin-top: 25vh;
+  display: inline-block;
+  width: 5vh;
+  height: 5vh;
+  background-color: #657883;
+  border-radius: 50%;
+}
+
+.circle .mouth {
+  margin: 0 auto;
+  margin-top: 2em;
+  width: 15vh;
+  height: 10vh;
+  background: #657883;
+  border: none;
+  border-radius: 20em;
+  -moz-transition: all .51s;
+  -o-transition: all .51s;
+  -webkit-transition: all .51s;
+  transition: .51s;
+}
+
+.circle.light_up {
+  box-shadow: 0 -10px 100px white;
+  background: white;
+  width: 70vh;
+  height: 70vh;
+}
+
+.circle.light_up .mouth {
+  background: #657883;
+  border: none;
+  border-radius: 10vh 10vh 30vh 30vh;
+  width: 40vh;
+  height: 20vh;
+}
+
+#light {
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 4em;
+  padding: 20px;
+  width: 20%;
+  border: 2px #50e2c2 solid;
+  color: black;
+  background: #50e2c2;
+  letter-spacing: 3px;
+  font-family: 'Caprasimo', cursive;
+  font-size: 5em;
+}
+
+#light:hover {
+  background: #50e2c2;
+  color: white;
+}
+
+h1,
+p {
+  color: #50e2c2;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background: #282a36;
+  overflow: hidden;
+
+
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}

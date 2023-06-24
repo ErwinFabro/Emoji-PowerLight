@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Emoji Power-Light",
+  "version": "1.0",
+  "description": "Una tab diferente.",
+  "permissions": ["tabs"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
