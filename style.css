@@ -43,8 +43,8 @@
 }
 
 .circle.light_up {
-  box-shadow: 0 -10px 100px white;
-  background: white;
+  box-shadow: 0 -10px 100px white !important;
+  background: white !important;
   width: 70vh;
   height: 70vh;
 }
