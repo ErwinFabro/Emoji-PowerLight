@@ -49,6 +49,11 @@
   height: 70vh;
 }
 
+@media (prefers-color-scheme: dark) {
+  .circle.light_up {
+    background-color: white;
+  }
+
 .circle.light_up .mouth {
   background: #657883;
   border: none;
